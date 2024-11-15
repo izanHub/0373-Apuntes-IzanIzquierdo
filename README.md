@@ -247,5 +247,3 @@ Ejemplo de HTML
 ```
 
 **Ejemplo de la tabla**
-
-![Ejemplo tabla](img/EjTablaHTML.png)
