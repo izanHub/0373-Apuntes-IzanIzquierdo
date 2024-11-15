@@ -136,3 +136,116 @@ codigo
 
 
 # HTML
+
+**html**: Define el comienzo y el final de un documento HTML. Todo el contenido de la página web debe estar contenido dentro de esta etiqueta.
+
+**head**; Contiene información sobre el documento, como el título de la página, metadatos, enlaces a hojas de estilo y otros elementos que no se muestran en la página.
+
+**title**: Define el título de la página, que se muestra en la barra de título del navegador.
+
+**meta**: Se utiliza para incluir metadatos en el documento, como el conjunto de caracteres utilizado y la descripción de la página.
+
+**link**: Permite vincular a hojas de estilo externas, iconos y otros recursos relacionados con la página.
+
+**style**: Se utiliza para incluir hojas de estilo CSS directamente en el documento HTML.
+
+**script**: Se utiliza para incluir scripts JavaScript en la página web. Puede estar ubicado en la sección **head** o al final del cuerpo (**body**) para mejorar el rendimiento de carga.
+
+**body**: Contiene el contenido visible de la página, como texto, imágenes, enlaces y otros elementos.
+
+**h1, h2, h3, h4, h5, h6**: Definen encabezados de diferentes niveles, siendo **h1** el más alto y **h6** el más bajo. Estos se utilizan para estructurar el contenido y mejorar la accesibilidad.
+
+**p**: Define un párrafo de texto.
+
+**a**: Crea enlaces a otras páginas web o recursos. El atributo href especifica la URL de destino.
+
+**img**: Inserta imágenes en la página web. El atributo src define la ubicación de la imagen.
+
+**ul y ol**: Se utilizan para crear listas no ordenadas (viñetas) y listas ordenadas (números o letras), respectivamente. Los elementos de lista se definen con li.
+
+**div**: Se utiliza para crear contenedores o divisiones en la página. Es comúnmente usado para aplicar estilos o estructurar el contenido.
+
+**table**: Crea tablas en la página web. Se utiliza junto con etiquetas como **tr** (fila), **th** (encabezado de columna) y **td**(celda de datos) para definir la estructura de la tabla.
+
+**form**: Define un formulario que permite a los usuarios enviar datos al servidor.
+
+**input**: Se utiliza para crear campos de entrada de texto, casillas de verificación, botones de radio y otros elementos de formulario.
+
+**select**: Crea listas desplegables de selección en formularios.
+
+Estos son unos de los atributos mas utilizados en html.
+
+```
+witdh=""
+class=""
+type=""
+id=""
+alt=""
+href=""
+```
+
+Ejemplo de HTML
+```html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>En el head se pone todo lo no visible en la pagina</title>
+    </head>
+    <body>
+        <h1>Apuntes</h1>
+        <p class="">contenido</p>
+        <img href="../imagen1.png">
+        <br>
+        <h4>Etiqueta de bloque</h4>
+        <p>La P, cuando se dejan de utilizar hace un intro</p>
+        <h4>Etiqueta de Titulo</h4>
+        <p>La a, se pueden poner enlaces, tambien se pondria estilos, imagenes...</p>
+        <a>
+    </body>
+</html>
+```
+
+# Tabla HTML
+
+```html
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Clase</th>
+                <th>Nombre</th>
+                <th>Nº Matricula</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1r</td>
+                <td>Marc Garcia</td>
+                <td>52161254</td>
+            </tr>
+            <tr>
+                <td>2n</td>
+                <td>Joan Guerrero</td>
+                <td>52165554</td>
+            </tr>
+            <tr>
+                <td>3r</td>
+                <td>Iker Amador</td>
+                <td>52165821</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Clase</th>
+                <th>Nombre</th>
+                <th>Nº Matricula</th>
+            </tr>
+        </tfoot>
+    </table>
+```
+
+**Ejemplo de la tabla**
+
+![Ejemplo tabla](img/EjTablaHTML.png)
